@@ -90,11 +90,11 @@ int main(){
     printf("Linked list before insertion:\n");
     linkedlisttraversal(head);
     printf("Linked list after insertion:\n");
-    // head= insertionatfirst(head,5);
-   // head = insertionatindex(head, 15, 2);
-    // head = insertionatend(head, 30);
-   head = insertionafternode(head, second, 25);
-    linkedlisttraversal(head);
+     head= insertionatfirst(head,5);
+     head = insertionatindex(head, 15, 2);
+     head = insertionatend(head, 30);
+     head = insertionafternode(head, second, 25);
+     linkedlisttraversal(head);
 
     return 0;
 }
